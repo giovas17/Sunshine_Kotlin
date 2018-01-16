@@ -4,6 +4,9 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.toolbar.*
 
+/**
+ * @author Giovani Gonzalez
+ */
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,6 +15,5 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(toolbar)
 
-        setTitle("Prueba de titulo Giovas")
     }
 }
