@@ -1,3 +1,5 @@
-<resources>
+<resources xmlns:gio="http://schemas.android.com/tools">
     <string name="app_name">Sunshine</string>
+    <string name="url_images" translatable="false">http://openweathermap.org/img/w/<gio:g name="icon">%1$s</gio:g>.png</string>
+    <string name="content_description_icon_of_the_weather">Icon of the weather</string>
 </resources>
