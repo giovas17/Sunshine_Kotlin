@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="base_url" translatable="false">http://api.openweathermap.org/data/2.5/forecast</string>
+    <string name="endpoint_weather_list" translatable="false">daily</string>
+    <string name="param_query" translatable="false">q</string>
+    <string name="param_format" translatable="false">mode</string>
+    <string name="param_units" translatable="false">units</string>
+    <string name="param_days" translatable="false">cnt</string>
+    <string name="param_api_key" translatable="false">APPID</string>
+    <string name="api_key" translatable="false">13fcd02f811995cc7a0520fa211ec13b</string>
+</resources>

@@ -2,6 +2,7 @@ package training.giovas.sunshine
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.softwaremobility.simplehttp.NetworkConnection
 import kotlinx.android.synthetic.main.toolbar.*
 
 /**
@@ -14,6 +15,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         setSupportActionBar(toolbar)
+
+        NetworkConnection.testPath(getString(R.string.base_url))
 
     }
 }
